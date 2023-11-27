@@ -1,0 +1,1021 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A0486EC2B1500F20046F731 /* SaberStatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0486EB2B1500F20046F731 /* SaberStatApp.swift */; };
+		4A0486EE2B1500F20046F731 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0486ED2B1500F20046F731 /* ContentView.swift */; };
+		4A0486F02B1500F40046F731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0486EF2B1500F40046F731 /* Assets.xcassets */; };
+		4A0486F32B1500F40046F731 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0486F22B1500F40046F731 /* Preview Assets.xcassets */; };
+		4A0486FD2B1500F40046F731 /* SaberStatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0486FC2B1500F40046F731 /* SaberStatTests.swift */; };
+		4A0487072B1500F40046F731 /* SaberStatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0487062B1500F40046F731 /* SaberStatUITests.swift */; };
+		4A0487092B1500F40046F731 /* SaberStatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0487082B1500F40046F731 /* SaberStatUITestsLaunchTests.swift */; };
+		4A04870F2B1500F50046F731 /* SaberStat Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4A04870E2B1500F50046F731 /* SaberStat Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4A0487142B1500F50046F731 /* SaberStatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0487132B1500F50046F731 /* SaberStatApp.swift */; };
+		4A0487162B1500F50046F731 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0487152B1500F50046F731 /* ContentView.swift */; };
+		4A0487182B1500F60046F731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0487172B1500F60046F731 /* Assets.xcassets */; };
+		4A04871B2B1500F60046F731 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A04871A2B1500F60046F731 /* Preview Assets.xcassets */; };
+		4A0487252B1500F60046F731 /* SaberStat_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0487242B1500F60046F731 /* SaberStat_Watch_AppTests.swift */; };
+		4A04872F2B1500F60046F731 /* SaberStat_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A04872E2B1500F60046F731 /* SaberStat_Watch_AppUITests.swift */; };
+		4A0487312B1500F60046F731 /* SaberStat_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0487302B1500F60046F731 /* SaberStat_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A0486F92B1500F40046F731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A0486E02B1500F20046F731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A0486E72B1500F20046F731;
+			remoteInfo = SaberStat;
+		};
+		4A0487032B1500F40046F731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A0486E02B1500F20046F731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A0486E72B1500F20046F731;
+			remoteInfo = SaberStat;
+		};
+		4A0487102B1500F50046F731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A0486E02B1500F20046F731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A04870D2B1500F50046F731;
+			remoteInfo = "SaberStat Watch App";
+		};
+		4A0487212B1500F60046F731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A0486E02B1500F20046F731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A04870D2B1500F50046F731;
+			remoteInfo = "SaberStat Watch App";
+		};
+		4A04872B2B1500F60046F731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A0486E02B1500F20046F731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A04870D2B1500F50046F731;
+			remoteInfo = "SaberStat Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4A0487372B1500F60046F731 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4A04870F2B1500F50046F731 /* SaberStat Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4A0486E82B1500F20046F731 /* SaberStat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaberStat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0486EB2B1500F20046F731 /* SaberStatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaberStatApp.swift; sourceTree = "<group>"; };
+		4A0486ED2B1500F20046F731 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4A0486EF2B1500F40046F731 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A0486F22B1500F40046F731 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A0486F82B1500F40046F731 /* SaberStatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaberStatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0486FC2B1500F40046F731 /* SaberStatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaberStatTests.swift; sourceTree = "<group>"; };
+		4A0487022B1500F40046F731 /* SaberStatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaberStatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0487062B1500F40046F731 /* SaberStatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaberStatUITests.swift; sourceTree = "<group>"; };
+		4A0487082B1500F40046F731 /* SaberStatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaberStatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4A04870E2B1500F50046F731 /* SaberStat Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SaberStat Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0487132B1500F50046F731 /* SaberStatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaberStatApp.swift; sourceTree = "<group>"; };
+		4A0487152B1500F50046F731 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4A0487172B1500F60046F731 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A04871A2B1500F60046F731 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A0487202B1500F60046F731 /* SaberStat Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SaberStat Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0487242B1500F60046F731 /* SaberStat_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaberStat_Watch_AppTests.swift; sourceTree = "<group>"; };
+		4A04872A2B1500F60046F731 /* SaberStat Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SaberStat Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A04872E2B1500F60046F731 /* SaberStat_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaberStat_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		4A0487302B1500F60046F731 /* SaberStat_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaberStat_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A0486E52B1500F20046F731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0486F52B1500F40046F731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0486FF2B1500F40046F731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A04870B2B1500F50046F731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A04871D2B1500F60046F731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0487272B1500F60046F731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A0486DF2B1500F20046F731 = {
+			isa = PBXGroup;
+			children = (
+				4A0486EA2B1500F20046F731 /* SaberStat */,
+				4A0486FB2B1500F40046F731 /* SaberStatTests */,
+				4A0487052B1500F40046F731 /* SaberStatUITests */,
+				4A0487122B1500F50046F731 /* SaberStat Watch App */,
+				4A0487232B1500F60046F731 /* SaberStat Watch AppTests */,
+				4A04872D2B1500F60046F731 /* SaberStat Watch AppUITests */,
+				4A0486E92B1500F20046F731 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A0486E92B1500F20046F731 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A0486E82B1500F20046F731 /* SaberStat.app */,
+				4A0486F82B1500F40046F731 /* SaberStatTests.xctest */,
+				4A0487022B1500F40046F731 /* SaberStatUITests.xctest */,
+				4A04870E2B1500F50046F731 /* SaberStat Watch App.app */,
+				4A0487202B1500F60046F731 /* SaberStat Watch AppTests.xctest */,
+				4A04872A2B1500F60046F731 /* SaberStat Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A0486EA2B1500F20046F731 /* SaberStat */ = {
+			isa = PBXGroup;
+			children = (
+				4A0486EB2B1500F20046F731 /* SaberStatApp.swift */,
+				4A0486ED2B1500F20046F731 /* ContentView.swift */,
+				4A0486EF2B1500F40046F731 /* Assets.xcassets */,
+				4A0486F12B1500F40046F731 /* Preview Content */,
+			);
+			path = SaberStat;
+			sourceTree = "<group>";
+		};
+		4A0486F12B1500F40046F731 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4A0486F22B1500F40046F731 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4A0486FB2B1500F40046F731 /* SaberStatTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A0486FC2B1500F40046F731 /* SaberStatTests.swift */,
+			);
+			path = SaberStatTests;
+			sourceTree = "<group>";
+		};
+		4A0487052B1500F40046F731 /* SaberStatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A0487062B1500F40046F731 /* SaberStatUITests.swift */,
+				4A0487082B1500F40046F731 /* SaberStatUITestsLaunchTests.swift */,
+			);
+			path = SaberStatUITests;
+			sourceTree = "<group>";
+		};
+		4A0487122B1500F50046F731 /* SaberStat Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				4A0487132B1500F50046F731 /* SaberStatApp.swift */,
+				4A0487152B1500F50046F731 /* ContentView.swift */,
+				4A0487172B1500F60046F731 /* Assets.xcassets */,
+				4A0487192B1500F60046F731 /* Preview Content */,
+			);
+			path = "SaberStat Watch App";
+			sourceTree = "<group>";
+		};
+		4A0487192B1500F60046F731 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4A04871A2B1500F60046F731 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4A0487232B1500F60046F731 /* SaberStat Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A0487242B1500F60046F731 /* SaberStat_Watch_AppTests.swift */,
+			);
+			path = "SaberStat Watch AppTests";
+			sourceTree = "<group>";
+		};
+		4A04872D2B1500F60046F731 /* SaberStat Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A04872E2B1500F60046F731 /* SaberStat_Watch_AppUITests.swift */,
+				4A0487302B1500F60046F731 /* SaberStat_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "SaberStat Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A0486E72B1500F20046F731 /* SaberStat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0487382B1500F60046F731 /* Build configuration list for PBXNativeTarget "SaberStat" */;
+			buildPhases = (
+				4A0486E42B1500F20046F731 /* Sources */,
+				4A0486E52B1500F20046F731 /* Frameworks */,
+				4A0486E62B1500F20046F731 /* Resources */,
+				4A0487372B1500F60046F731 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A0487112B1500F50046F731 /* PBXTargetDependency */,
+			);
+			name = SaberStat;
+			productName = SaberStat;
+			productReference = 4A0486E82B1500F20046F731 /* SaberStat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A0486F72B1500F40046F731 /* SaberStatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A04873B2B1500F60046F731 /* Build configuration list for PBXNativeTarget "SaberStatTests" */;
+			buildPhases = (
+				4A0486F42B1500F40046F731 /* Sources */,
+				4A0486F52B1500F40046F731 /* Frameworks */,
+				4A0486F62B1500F40046F731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A0486FA2B1500F40046F731 /* PBXTargetDependency */,
+			);
+			name = SaberStatTests;
+			productName = SaberStatTests;
+			productReference = 4A0486F82B1500F40046F731 /* SaberStatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A0487012B1500F40046F731 /* SaberStatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A04873E2B1500F60046F731 /* Build configuration list for PBXNativeTarget "SaberStatUITests" */;
+			buildPhases = (
+				4A0486FE2B1500F40046F731 /* Sources */,
+				4A0486FF2B1500F40046F731 /* Frameworks */,
+				4A0487002B1500F40046F731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A0487042B1500F40046F731 /* PBXTargetDependency */,
+			);
+			name = SaberStatUITests;
+			productName = SaberStatUITests;
+			productReference = 4A0487022B1500F40046F731 /* SaberStatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4A04870D2B1500F50046F731 /* SaberStat Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0487342B1500F60046F731 /* Build configuration list for PBXNativeTarget "SaberStat Watch App" */;
+			buildPhases = (
+				4A04870A2B1500F50046F731 /* Sources */,
+				4A04870B2B1500F50046F731 /* Frameworks */,
+				4A04870C2B1500F50046F731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SaberStat Watch App";
+			productName = "SaberStat Watch App";
+			productReference = 4A04870E2B1500F50046F731 /* SaberStat Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A04871F2B1500F60046F731 /* SaberStat Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0487412B1500F60046F731 /* Build configuration list for PBXNativeTarget "SaberStat Watch AppTests" */;
+			buildPhases = (
+				4A04871C2B1500F60046F731 /* Sources */,
+				4A04871D2B1500F60046F731 /* Frameworks */,
+				4A04871E2B1500F60046F731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A0487222B1500F60046F731 /* PBXTargetDependency */,
+			);
+			name = "SaberStat Watch AppTests";
+			productName = "SaberStat Watch AppTests";
+			productReference = 4A0487202B1500F60046F731 /* SaberStat Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A0487292B1500F60046F731 /* SaberStat Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A0487442B1500F60046F731 /* Build configuration list for PBXNativeTarget "SaberStat Watch AppUITests" */;
+			buildPhases = (
+				4A0487262B1500F60046F731 /* Sources */,
+				4A0487272B1500F60046F731 /* Frameworks */,
+				4A0487282B1500F60046F731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A04872C2B1500F60046F731 /* PBXTargetDependency */,
+			);
+			name = "SaberStat Watch AppUITests";
+			productName = "SaberStat Watch AppUITests";
+			productReference = 4A04872A2B1500F60046F731 /* SaberStat Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A0486E02B1500F20046F731 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4A0486E72B1500F20046F731 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					4A0486F72B1500F40046F731 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4A0486E72B1500F20046F731;
+					};
+					4A0487012B1500F40046F731 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4A0486E72B1500F20046F731;
+					};
+					4A04870D2B1500F50046F731 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					4A04871F2B1500F60046F731 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4A04870D2B1500F50046F731;
+					};
+					4A0487292B1500F60046F731 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 4A04870D2B1500F50046F731;
+					};
+				};
+			};
+			buildConfigurationList = 4A0486E32B1500F20046F731 /* Build configuration list for PBXProject "SaberStat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A0486DF2B1500F20046F731;
+			productRefGroup = 4A0486E92B1500F20046F731 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A0486E72B1500F20046F731 /* SaberStat */,
+				4A0486F72B1500F40046F731 /* SaberStatTests */,
+				4A0487012B1500F40046F731 /* SaberStatUITests */,
+				4A04870D2B1500F50046F731 /* SaberStat Watch App */,
+				4A04871F2B1500F60046F731 /* SaberStat Watch AppTests */,
+				4A0487292B1500F60046F731 /* SaberStat Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A0486E62B1500F20046F731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0486F32B1500F40046F731 /* Preview Assets.xcassets in Resources */,
+				4A0486F02B1500F40046F731 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0486F62B1500F40046F731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0487002B1500F40046F731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A04870C2B1500F50046F731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A04871B2B1500F60046F731 /* Preview Assets.xcassets in Resources */,
+				4A0487182B1500F60046F731 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A04871E2B1500F60046F731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0487282B1500F60046F731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A0486E42B1500F20046F731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0486EE2B1500F20046F731 /* ContentView.swift in Sources */,
+				4A0486EC2B1500F20046F731 /* SaberStatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0486F42B1500F40046F731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0486FD2B1500F40046F731 /* SaberStatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0486FE2B1500F40046F731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0487092B1500F40046F731 /* SaberStatUITestsLaunchTests.swift in Sources */,
+				4A0487072B1500F40046F731 /* SaberStatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A04870A2B1500F50046F731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0487162B1500F50046F731 /* ContentView.swift in Sources */,
+				4A0487142B1500F50046F731 /* SaberStatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A04871C2B1500F60046F731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0487252B1500F60046F731 /* SaberStat_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0487262B1500F60046F731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A0487312B1500F60046F731 /* SaberStat_Watch_AppUITestsLaunchTests.swift in Sources */,
+				4A04872F2B1500F60046F731 /* SaberStat_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A0486FA2B1500F40046F731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A0486E72B1500F20046F731 /* SaberStat */;
+			targetProxy = 4A0486F92B1500F40046F731 /* PBXContainerItemProxy */;
+		};
+		4A0487042B1500F40046F731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A0486E72B1500F20046F731 /* SaberStat */;
+			targetProxy = 4A0487032B1500F40046F731 /* PBXContainerItemProxy */;
+		};
+		4A0487112B1500F50046F731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A04870D2B1500F50046F731 /* SaberStat Watch App */;
+			targetProxy = 4A0487102B1500F50046F731 /* PBXContainerItemProxy */;
+		};
+		4A0487222B1500F60046F731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A04870D2B1500F50046F731 /* SaberStat Watch App */;
+			targetProxy = 4A0487212B1500F60046F731 /* PBXContainerItemProxy */;
+		};
+		4A04872C2B1500F60046F731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A04870D2B1500F50046F731 /* SaberStat Watch App */;
+			targetProxy = 4A04872B2B1500F60046F731 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4A0487322B1500F60046F731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A0487332B1500F60046F731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4A0487352B1500F60046F731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SaberStat Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = V5KQRA3STK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SaberStat;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.skushagra.SaberStat;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skushagra.SaberStat.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		4A0487362B1500F60046F731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SaberStat Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = V5KQRA3STK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SaberStat;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.skushagra.SaberStat;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skushagra.SaberStat.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		4A0487392B1500F60046F731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SaberStat/Preview Content\"";
+				DEVELOPMENT_TEAM = V5KQRA3STK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SaberStat;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skushagra.SaberStat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A04873A2B1500F60046F731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SaberStat/Preview Content\"";
+				DEVELOPMENT_TEAM = V5KQRA3STK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SaberStat;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skushagra.SaberStat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A04873C2B1500F60046F731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5KQRA3STK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skushagra.SaberStatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaberStat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SaberStat";
+			};
+			name = Debug;
+		};
+		4A04873D2B1500F60046F731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5KQRA3STK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skushagra.SaberStatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaberStat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SaberStat";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A04873F2B1500F60046F731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5KQRA3STK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skushagra.SaberStatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SaberStat;
+			};
+			name = Debug;
+		};
+		4A0487402B1500F60046F731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5KQRA3STK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skushagra.SaberStatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SaberStat;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A0487422B1500F60046F731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5KQRA3STK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skushagra.SaberStat-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaberStat Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SaberStat Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		4A0487432B1500F60046F731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5KQRA3STK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skushagra.SaberStat-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SaberStat Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SaberStat Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		4A0487452B1500F60046F731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5KQRA3STK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skushagra.SaberStat-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "SaberStat Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		4A0487462B1500F60046F731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V5KQRA3STK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skushagra.SaberStat-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "SaberStat Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A0486E32B1500F20046F731 /* Build configuration list for PBXProject "SaberStat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0487322B1500F60046F731 /* Debug */,
+				4A0487332B1500F60046F731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0487342B1500F60046F731 /* Build configuration list for PBXNativeTarget "SaberStat Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0487352B1500F60046F731 /* Debug */,
+				4A0487362B1500F60046F731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0487382B1500F60046F731 /* Build configuration list for PBXNativeTarget "SaberStat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0487392B1500F60046F731 /* Debug */,
+				4A04873A2B1500F60046F731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A04873B2B1500F60046F731 /* Build configuration list for PBXNativeTarget "SaberStatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A04873C2B1500F60046F731 /* Debug */,
+				4A04873D2B1500F60046F731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A04873E2B1500F60046F731 /* Build configuration list for PBXNativeTarget "SaberStatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A04873F2B1500F60046F731 /* Debug */,
+				4A0487402B1500F60046F731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0487412B1500F60046F731 /* Build configuration list for PBXNativeTarget "SaberStat Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0487422B1500F60046F731 /* Debug */,
+				4A0487432B1500F60046F731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A0487442B1500F60046F731 /* Build configuration list for PBXNativeTarget "SaberStat Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A0487452B1500F60046F731 /* Debug */,
+				4A0487462B1500F60046F731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A0486E02B1500F20046F731 /* Project object */;
+}
