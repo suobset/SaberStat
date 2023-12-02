@@ -19,9 +19,10 @@ class Server(http.server.BaseHTTPRequestHandler):
         post_data = self.rfile.read(content_length)
         logging.info("POST request,\nPath: %s\nHeaders:\n%s\n\nBody:\n%s\n",
             str(self.path), str(self.headers), post_data.decode('utf-8'))
-
         self._set_response()
-        self.wfile.write("POST request for {}".format(self.path).encode('utf-8'))
+        with open("log.json", "a") as f:
+            f.write(post_data.decode('utf-8'))
+            f.write(",\n")
 
 def run(server_class=http.server.HTTPServer, handler_class=Server, port=8000):
     logging.basicConfig(level=logging.INFO)
