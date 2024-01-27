@@ -2,7 +2,7 @@
 UI for dsplaying StatInterface
 """
 
-import tkinter as tk
+import tk
 from tkinter import ttk
 from tkinter import filedialog
 

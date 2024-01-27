@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON to Chart</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chart.js">
+    <style>
+        canvas {
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>JSON to Chart</h1>
+    <div>
+        <label for="jsonInput">Paste JSON data:</label>
+        <textarea id="jsonInput" rows="5" cols="50"></textarea>
+        <button onclick="generateChart()">Generate Chart</button>
+    </div>
+    <canvas id="myChart"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
